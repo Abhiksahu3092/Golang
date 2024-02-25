@@ -25,6 +25,7 @@ func main() {
 	}*/
 
 	value:=1
+	//kind of while loop
 	for value<20{
 
 		if(value==10){

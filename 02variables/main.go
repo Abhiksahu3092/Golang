@@ -26,7 +26,7 @@ func main() {
 	fmt.Printf("The variable is of type: %T\n",float_value)
 	
 	//here is a comment
-	//in go no garbage value is provided if any variable is not initialized
+	//In go no garbage value is provided if any variable is not initialized
 	var not_garbage int
 	fmt.Println(not_garbage)
 	fmt.Printf("The variable is of type: %T\n",not_garbage)

@@ -5,10 +5,10 @@ import "fmt"
 func main() {
 	fmt.Println("welcome to pointers")
 
-	var new_number int=45
+	new_number:=45
 	var ptr *int
 	ptr=&new_number
 
-	fmt.Println(ptr)
+	fmt.Println(ptr)//address of at which number is stored
 	fmt.Println(*ptr)
 }

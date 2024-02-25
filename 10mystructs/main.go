@@ -7,7 +7,7 @@ func main() {
 	
 	abhik:=User{"Abhik","abhiksahu2003@gmail.com",true,20}
 	fmt.Println(abhik)
-	fmt.Printf("%v",abhik.Name)
+	fmt.Printf(abhik.Email)
 	
 }
 

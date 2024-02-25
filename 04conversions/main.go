@@ -11,9 +11,12 @@ import (
 func main() {
 	fmt.Println("Hii there !!!")
 
+	//takes input from user
 	new_input:=bufio.NewReader(os.Stdin)
 
+	//reads the input given by the user
 	ok,_:=new_input.ReadString('\n')
+	//input is of the form of the string so typecasting is required
 	numrating,err:=strconv.ParseFloat(strings.TrimSpace(ok),64)
 
 	if err!=nil {

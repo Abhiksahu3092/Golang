@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("welcome to pointers")
+	fmt.Println("welcome to arrays")
 
 	//this is an array
 	var arr[4] string

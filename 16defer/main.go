@@ -15,7 +15,7 @@ func main() {
 func defering()  {
 	//basically the defer keyword puts the operation in stack
 	for i := 0; i < 3; i++ {
-		defer fmt.Print(i)
+		defer fmt.Println(i)
 	}
 	//fmt.Println()
 }

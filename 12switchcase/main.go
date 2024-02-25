@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//creating a basic ludo game
 	fmt.Println("learning about switch cases")
 
 	rand.Seed(time.Now().UnixNano())

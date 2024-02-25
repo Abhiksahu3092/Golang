@@ -14,6 +14,6 @@ func main() {
 
 	//comma ok or comma error
 	input,_:=reader.ReadString('\n')
-	fmt.Println("Thanks for rating us ",input)
+	fmt.Print("Thanks for rating us ",input)
 	fmt.Printf("The type of the input is %T",input)
 }

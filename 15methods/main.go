@@ -10,10 +10,10 @@ func main() {
 	fmt.Printf("%v",abhik.Name)
 	fmt.Println()
 	
-	abhik.status()
+	status(abhik)
 	//referencing of these variables is important otherwise a copy of arguement will be executed upon
 	fmt.Println(abhik.Age)
-	abhik.change_age()
+	change_age(abhik)
 	fmt.Println(abhik.Age)
 
 }
@@ -26,11 +26,11 @@ type User struct {
 }
 
 //function which takes structure as an argument
-func (myuser User)status(){
+func status(myuser User){
 	fmt.Println(myuser.Status)
 }
 
-func (myuser User)change_age(){
+func change_age(myuser User){
 	myuser.Age=21
 	fmt.Println(myuser.Age)
 }
